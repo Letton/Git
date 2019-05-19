@@ -36,14 +36,18 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
-				<a class="nav-item nav-link" href="#">Home</a>
-				<a class="nav-item nav-link" href="#">Features</a>
-				<a class="nav-item nav-link" href="#">Pricing</a>
+				<a class="nav-item nav-link" href="#">Главная</a>
+				<a class="nav-item nav-link" href="#">Рецепты</a>
+				<a class="nav-item nav-link" href="#">Добавить рецепт</a>
 			</div>
 		</div>
 		</nav>
-		<div class="container-fluid">
-
+		<div class="header-fullscreen">
+			<div class="header-title-container">
+				<h1>Рецепты</h1>
+				<p>Ищите рецепты, выбирая категорию блюда, его подкатегорию, кухню или меню.</p>
+				<button class="btn btn-secondary">Искать</button>
+			</div>
 		</div>
 	</header>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

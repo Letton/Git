@@ -1,3 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito");
+.header-fullscreen {
+  height: calc(100vh - 56px);
+  background: center url(/img/header-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+.header-fullscreen .header-title-container {
+  max-width: 650px;
+}
+.header-fullscreen h1 {
+  font-size: 4em;
+}
+.header-fullscreen p {
+  font-size: 1.4em;
+  padding: 10px;
+}
+.header-fullscreen button {
+  padding: 10px 25px;
+  background: #343a40;
+  border: #343a40;
+}
 
 /*# sourceMappingURL=app.css.map */

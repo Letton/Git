@@ -3,3 +3,28 @@
 
 // Variables
 @import 'variables';
+
+.header-fullscreen {
+    height: calc(100vh - 56px)          ;
+    background: center url(/img/header-background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    .header-title-container {
+        max-width: 650px;
+    }
+    h1 {
+        font-size: 4em;
+    }
+    p {
+        font-size: 1.4em;
+        padding: 10px;
+    }
+    button {
+        padding: 10px 25px;
+        background: #343a40;
+        border: #343a40;
+    }
+}
