@@ -1,4 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);.header-fullscreen {
+@import url(https://fonts.googleapis.com/css?family=Nunito);html,
+body {
+  min-height: 100vh;
+  background: #292d32;
+}
+
+.header-fullscreen {
   height: calc(100vh - 56px);
   background: center url(/img/header-background.jpg);
   display: flex;
@@ -28,5 +34,95 @@
   padding: 10px 25px;
   background: #343a40;
   border: #343a40;
+}
+
+.recipes {
+  padding-top: 25px;
+}
+
+.recipes .col-md-6 {
+  padding-bottom: 30px;
+}
+
+.recipes .col-md-6 .card {
+  background: #343a40;
+  color: #ffffff;
+}
+
+.add-recipe {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.add-recipe h2 {
+  color: #fff !important;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.row {
+  align-items: stretch !important;
+}
+
+form label {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+form input {
+  background: #1d2124 !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+form button {
+  margin: 15px auto;
+}
+
+.recipe-row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.recipe-row .recipe-card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #343a40;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.recipe-row .recipe-card h2 {
+  color: #fff !important;
+  padding-bottom: 20px;
+  margin: 0;
+  font-size: 1.85em;
+}
+
+.recipe-row .recipe-card p {
+  text-align: left;
+  padding: 0 20px 0 20px;
+  font-size: 1.1em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.recipe-row .recipe-card hr {
+  background: #fff;
+}
+
+.recipe-row .recipe-card h3 {
+  font-size: 1.2em;
+  color: #fff;
+  text-align: left;
+}
+
+.recipe-row .recipe-card .desc {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.recipe-row .recipe-card .instruction {
+  text-align: left;
 }
 

@@ -4,8 +4,13 @@
 // Variables
 @import 'variables';
 
+html, body {
+    min-height: 100vh;
+    background: darken(#343a40, 5%);
+}
+
 .header-fullscreen {
-    height: calc(100vh - 56px)          ;
+    height: calc(100vh - 56px);
     background: center url(/img/header-background.jpg);
     display: flex;
     justify-content: center;
@@ -29,5 +34,82 @@
         padding: 10px 25px;
         background: #343a40;
         border: #343a40;
+    }
+}
+
+.recipes {
+    padding-top: 25px;
+    .col-md-6 {
+        padding-bottom: 30px;
+        .card {
+            background: #343a40;
+            color: #ffffff;
+        }
+    }
+}
+
+.add-recipe {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h2 {
+        color: #fff!important;
+        text-align: center;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+}
+.row {
+    align-items: stretch!important;
+}
+form {
+    label {
+        color: rgba(255,255,255,.5);
+    } 
+    input {
+        background: darken(darken(#343a40, 5%), 5%)!important;
+        border: none!important;
+        color: #fff!important;
+    }
+    button {
+        margin: 15px auto;
+    }
+}
+.recipe-row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .recipe-card {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: #343a40;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+        text-align: center;
+        h2 {
+            color: #fff!important;
+            padding-bottom: 20px;
+            margin: 0;
+            font-size: 1.85em;
+        }
+        p {
+            text-align: left;
+            padding: 0 20px 0 20px;
+            font-size: 1.1em;
+            color: rgba(255,255,255, .5);
+        }
+        hr {
+            background: #fff;
+        }
+        h3 {
+            font-size: 1.2em;
+            color: #fff;
+            text-align: left;
+        }
+        .desc {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .instruction {
+            text-align: left;
+        }
     }
 }

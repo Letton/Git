@@ -16,3 +16,9 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/showAll', 'SinglePageController@showAll');
+
+Route::get('/show/{id}', 'SinglePageController@show');
+
+Route::post('/add-recipe', 'SinglePageController@addrecipe');
